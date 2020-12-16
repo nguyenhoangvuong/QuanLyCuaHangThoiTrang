@@ -56,6 +56,7 @@
             this.btnBanHang = new System.Windows.Forms.Button();
             this.btnTrangChu = new System.Windows.Forms.Button();
             this.panelControls = new System.Windows.Forms.Panel();
+            this.btnDangXuat = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panelLeft.SuspendLayout();
             this.pannelLeft1.SuspendLayout();
@@ -184,6 +185,7 @@
             // panelLeft
             // 
             this.panelLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panelLeft.Controls.Add(this.btnDangXuat);
             this.panelLeft.Controls.Add(this.label17);
             this.panelLeft.Controls.Add(this.label16);
             this.panelLeft.Controls.Add(this.panelSide);
@@ -387,6 +389,24 @@
             this.panelControls.Size = new System.Drawing.Size(994, 694);
             this.panelControls.TabIndex = 5;
             // 
+            // btnDangXuat
+            // 
+            this.btnDangXuat.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDangXuat.FlatAppearance.BorderSize = 0;
+            this.btnDangXuat.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.btnDangXuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDangXuat.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnDangXuat.Image")));
+            this.btnDangXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDangXuat.Location = new System.Drawing.Point(9, 637);
+            this.btnDangXuat.Name = "btnDangXuat";
+            this.btnDangXuat.Size = new System.Drawing.Size(194, 50);
+            this.btnDangXuat.TabIndex = 5;
+            this.btnDangXuat.Text = "   Đăng Xuất";
+            this.btnDangXuat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDangXuat.UseVisualStyleBackColor = true;
+            this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
+            // 
             // Main
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -438,5 +458,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnKhoHang;
         private System.Windows.Forms.Panel panelControls;
+        private System.Windows.Forms.Button btnDangXuat;
     }
 }

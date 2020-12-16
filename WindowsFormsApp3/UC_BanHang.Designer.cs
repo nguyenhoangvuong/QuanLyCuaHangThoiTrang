@@ -42,7 +42,7 @@
             this.btnThemMatHang = new System.Windows.Forms.Button();
             this.panelRight = new System.Windows.Forms.Panel();
             this.btnXoaMatHang = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.lvSanPhamBan = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -209,7 +209,7 @@
             // 
             this.panelRight.BackColor = System.Drawing.Color.Silver;
             this.panelRight.Controls.Add(this.btnXoaMatHang);
-            this.panelRight.Controls.Add(this.listView1);
+            this.panelRight.Controls.Add(this.lvSanPhamBan);
             this.panelRight.Controls.Add(this.panel4);
             this.panelRight.Controls.Add(this.button1);
             this.panelRight.Controls.Add(this.flowLayoutPanel1);
@@ -235,20 +235,20 @@
             this.btnXoaMatHang.Text = "Xóa";
             this.btnXoaMatHang.UseVisualStyleBackColor = false;
             // 
-            // listView1
+            // lvSanPhamBan
             // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.lvSanPhamBan.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3});
-            this.listView1.GridLines = true;
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(10, 0);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(407, 408);
-            this.listView1.TabIndex = 5;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.lvSanPhamBan.GridLines = true;
+            this.lvSanPhamBan.HideSelection = false;
+            this.lvSanPhamBan.Location = new System.Drawing.Point(10, 0);
+            this.lvSanPhamBan.Name = "lvSanPhamBan";
+            this.lvSanPhamBan.Size = new System.Drawing.Size(407, 408);
+            this.lvSanPhamBan.TabIndex = 5;
+            this.lvSanPhamBan.UseCompatibleStateImageBehavior = false;
+            this.lvSanPhamBan.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
@@ -469,7 +469,7 @@
         private System.Windows.Forms.Button btnThemMatHang;
         private System.Windows.Forms.Panel panelRight;
         private System.Windows.Forms.Button btnXoaMatHang;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView lvSanPhamBan;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;

@@ -108,5 +108,10 @@ namespace WindowsFormsApp3
             UC_KhoHang kh = new UC_KhoHang();
             addControlsToPanel(kh);
         }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

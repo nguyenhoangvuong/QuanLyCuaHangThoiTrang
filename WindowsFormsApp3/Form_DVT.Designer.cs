@@ -34,7 +34,7 @@
             this.btnLuu = new System.Windows.Forms.Button();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtDVT = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
@@ -118,14 +118,14 @@
             this.label1.TabIndex = 83;
             this.label1.Text = "Thêm ĐVT";
             // 
-            // textBox2
+            // txtDVT
             // 
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(143, 100);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(230, 32);
-            this.textBox2.TabIndex = 82;
+            this.txtDVT.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDVT.ForeColor = System.Drawing.Color.Black;
+            this.txtDVT.Location = new System.Drawing.Point(143, 100);
+            this.txtDVT.Name = "txtDVT";
+            this.txtDVT.Size = new System.Drawing.Size(230, 32);
+            this.txtDVT.TabIndex = 82;
             // 
             // label3
             // 
@@ -185,7 +185,7 @@
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtDVT);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.flowLayoutPanel2);
@@ -208,7 +208,7 @@
         private System.Windows.Forms.Button btnLuu;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtDVT;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
