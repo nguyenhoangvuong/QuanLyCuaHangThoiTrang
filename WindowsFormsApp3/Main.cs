@@ -21,6 +21,9 @@ namespace WindowsFormsApp3
             panelLeft.Width = panelLeft.Width - 145;
             w = panelLeft.Width;
             check = false;
+            /*hiển thị trang chủ*/
+            UC_TrangChu tc = new UC_TrangChu();
+            addControlsToPanel(tc);
         }
 
         private void timerTime_Tick(object sender, EventArgs e)
@@ -112,6 +115,20 @@ namespace WindowsFormsApp3
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
             this.Dispose();
+        }
+
+        private void btnTrangChu_Click(object sender, EventArgs e)
+        {
+            movesidePannel(btnTrangChu);
+            UC_TrangChu tc = new UC_TrangChu();
+            addControlsToPanel(tc);
+        }
+
+        private void btnThongKe_Click(object sender, EventArgs e)
+        {
+            movesidePannel(btnThongKe);
+            UC_ThongKe tk = new UC_ThongKe();
+            addControlsToPanel(tk);
         }
     }
 }

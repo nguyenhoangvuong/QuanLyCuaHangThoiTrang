@@ -17,3 +17,7 @@ C:\Users\Admin\Desktop\TaiLieu\QuanLyCuaHangThoiTrang\WindowsFormsApp3\obj\Debug
 C:\Users\Admin\Desktop\TaiLieu\QuanLyCuaHangThoiTrang\WindowsFormsApp3\obj\Debug\QuanLyShopThoiTrang.csproj.CopyComplete
 C:\Users\Admin\Desktop\TaiLieu\QuanLyCuaHangThoiTrang\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
 C:\Users\Admin\Desktop\TaiLieu\QuanLyCuaHangThoiTrang\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Admin\Desktop\TaiLieu\QuanLyCuaHangThoiTrang\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.UC_ThongKe.resources
+C:\Users\Admin\Desktop\TaiLieu\QuanLyCuaHangThoiTrang\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.UC_TrangChu.resources
+C:\Users\Admin\Desktop\TaiLieu\QuanLyCuaHangThoiTrang\WindowsFormsApp3\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Admin\Desktop\TaiLieu\QuanLyCuaHangThoiTrang\WindowsFormsApp3\bin\Debug\BunifuDataViz 1.0.1.dll
